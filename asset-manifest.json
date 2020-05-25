@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/trackertutorial/static/css/main.5c0b6a9c.chunk.css",
-    "main.js": "/trackertutorial/static/js/main.44df6441.chunk.js",
+    "main.js": "/trackertutorial/static/js/main.56a2cbcb.chunk.js",
     "runtime-main.js": "/trackertutorial/static/js/runtime-main.7b91147c.js",
-    "static/js/2.5366a10a.chunk.js": "/trackertutorial/static/js/2.5366a10a.chunk.js",
+    "static/js/2.fa69e6bb.chunk.js": "/trackertutorial/static/js/2.fa69e6bb.chunk.js",
     "index.html": "/trackertutorial/index.html",
-    "precache-manifest.2b65ac414f40e99a9290a1746fdb51df.js": "/trackertutorial/precache-manifest.2b65ac414f40e99a9290a1746fdb51df.js",
+    "precache-manifest.9288f3c4310775abff264859c1f8690e.js": "/trackertutorial/precache-manifest.9288f3c4310775abff264859c1f8690e.js",
     "service-worker.js": "/trackertutorial/service-worker.js",
-    "static/js/2.5366a10a.chunk.js.LICENSE.txt": "/trackertutorial/static/js/2.5366a10a.chunk.js.LICENSE.txt",
+    "static/js/2.fa69e6bb.chunk.js.LICENSE.txt": "/trackertutorial/static/js/2.fa69e6bb.chunk.js.LICENSE.txt",
     "static/media/covid19.jpg": "/trackertutorial/static/media/covid19.d5049d72.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7b91147c.js",
-    "static/js/2.5366a10a.chunk.js",
+    "static/js/2.fa69e6bb.chunk.js",
     "static/css/main.5c0b6a9c.chunk.css",
-    "static/js/main.44df6441.chunk.js"
+    "static/js/main.56a2cbcb.chunk.js"
   ]
 }
