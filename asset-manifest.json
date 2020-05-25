@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/covid-tracker-tutorial/static/css/main.5c0b6a9c.chunk.css",
+    "main.js": "/covid-tracker-tutorial/static/js/main.c6db76a2.chunk.js",
+    "runtime-main.js": "/covid-tracker-tutorial/static/js/runtime-main.fa9ef1ed.js",
+    "static/js/2.82567d7c.chunk.js": "/covid-tracker-tutorial/static/js/2.82567d7c.chunk.js",
+    "index.html": "/covid-tracker-tutorial/index.html",
+    "precache-manifest.1d9cc744d860d35bfe6d85d5162f06f1.js": "/covid-tracker-tutorial/precache-manifest.1d9cc744d860d35bfe6d85d5162f06f1.js",
+    "service-worker.js": "/covid-tracker-tutorial/service-worker.js",
+    "static/js/2.82567d7c.chunk.js.LICENSE.txt": "/covid-tracker-tutorial/static/js/2.82567d7c.chunk.js.LICENSE.txt",
+    "static/media/covid19.jpg": "/covid-tracker-tutorial/static/media/covid19.d5049d72.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa9ef1ed.js",
+    "static/js/2.82567d7c.chunk.js",
+    "static/css/main.5c0b6a9c.chunk.css",
+    "static/js/main.c6db76a2.chunk.js"
+  ]
+}
