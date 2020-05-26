@@ -16,6 +16,28 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
 
 	console.log(dailyData);
 
+	let diffConfirmedArray = [];
+	for (let i = 0; i < dailyData.length; i++) {
+		if (i === 0) {
+			diffConfirmedArray.push(0);
+		} else {
+			diffConfirmedArray.push(
+				dailyData[i].confirmed - dailyData[i - 1].confirmed
+			);
+		}
+	}
+
+	let diffDeathArray = [];
+	for (let i = 0; i < dailyData.length; i++) {
+		if (i === 0) {
+			diffDeathArray.push(0);
+		} else {
+			diffDeathArray.push(dailyData[i].deaths - dailyData[i - 1].deaths);
+		}
+	}
+
+	console.log(diffConfirmedArray);
+
 	const lineChart = dailyData.length ? (
 		<Line
 			data={{
@@ -28,9 +50,22 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
 						fill: true,
 					},
 					{
+						data: diffConfirmedArray,
+						label: 'Increase',
+						borderColor: 'purple',
+						fill: true,
+					},
+					{
 						data: dailyData.map(({ deaths }) => deaths),
 						label: 'Deaths',
 						borderColor: 'red',
+						backgroundColor: 'rgba(255,0,0,0.5)',
+						fill: true,
+					},
+					{
+						data: diffDeathArray,
+						label: 'Deaths increase',
+						borderColor: 'orange',
 						backgroundColor: 'rgba(255,0,0,0.5)',
 						fill: true,
 					},
